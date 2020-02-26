@@ -1,38 +1,33 @@
-# Simple Calculator
+# Calculadora Simple
+## Desarrollada por Juan Pablo de Jesus Figueroa Jaramillo
 <img alt="Logo" src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="80">
 
-A calculator with the basic functions and a customizable widget.
+Una calculadora con las funciones básicas y un widget personalizable.
 
-You can copy the result or formula to clipboard by long pressing it.
+Puede copiar el resultado o la fórmula al portapapeles presionándolo prolongadamente.
 
-The text color of the widget can be customized, as well as the color and the alpha of the background. Press the result or formula in the widget to open the app.
+El color del texto del widget se puede personalizar, así como el color y el alfa del fondo. Presione el resultado o la fórmula en el widget para abrir la aplicación.
 
-Contains no ads or unnecessary permissions. It is fully opensource, provides customizable colors.
+No contiene anuncios ni permisos innecesarios. Es completamente de código abierto, proporciona colores personalizables.
 
-This app is just one piece of a bigger series of apps. You can find the rest of them at https://www.simplemobiletools.com
-
-<a href='https://play.google.com/store/apps/details?id=com.simplemobiletools.calculator'><img src='https://simplemobiletools.com/assets/images/google-play.png' alt='Get it on Google Play' height=45/></a>
-<a href='https://f-droid.org/packages/com.simplemobiletools.calculator'><img src='https://simplemobiletools.com/assets/images/f-droid.png' alt='Get it on F-Droid' height=45 ></a>
-
-<div style="display:flex;">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/app_1.jpg" width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/app_2.jpg" width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/app_3.jpg" width="30%">
-</div>
 
 </br>
-It contains a couple UI and unit tests, they can be ran with the following instructions.
+Contiene un par de UI y pruebas unitarias, se pueden ejecutar con las siguientes instrucciones.
 
-<h3>Running Espresso UI tests</h3>
-<p>1. Run -> Edit Configurations</p>
-<p>2. Create a new "Android Instrumentation Tests" configuration, give it a name (i.e. "MainActivityEspressoTest")</p>
-<p>3. Choose the "app" module</p>
-<p>4. OK</p>
-<p>5. Make sure MainActivityEspressoTest is selected near the Run button</p>
-<p>6. Run</p>
+<h3> Ejecución de pruebas de interfaz de usuario de Espresso </h3>
+<p> 1. Ejecutar -> Editar configuraciones </p>
+<p> 2. Cree una nueva configuración de "Pruebas de instrumentación de Android", asígnele un nombre (es decir, "MainActivityEspressoTest") </p>
+<p> 3. Elija el módulo "aplicación" </p>
+<p> 4. OK </p>
+<p> 5. Asegúrese de que MainActivityEspressoTest esté seleccionado cerca del botón Ejecutar </p>
+<p> 6. Ejecutar </p>
 
-<h3>Running Robolectric tests</h3>
-<p>1. At the Project tab right click the folder containing the tests (i.e. "calculator.simplemobiletools.com.simple_calculator (test)")</p>
+<h3> Ejecución de pruebas de Robolectric </h3>
+<p> 1. En la pestaña Proyecto, haga clic con el botón derecho en la carpeta que contiene las pruebas (es decir, "calculator.simplemobiletools.com.simple_calculator (prueba)") </p>
+<p> 2. seleccione Ejecutar 'Pruebas en' calculator.simplemob ... 'para ejecutar todas las pruebas </p>
+<p> 3. si está en Linux o Mac, vaya a Ejecutar -> Editar configuraciones, seleccione la nueva configuración de JUnit y cambie el elemento "Directorio de trabajo" a "$ MODULE_DIR $" (sin comillas) </p>
+<p> 4. OK </p>
+<p> 5. Ejecutar </p>
 <p>2. select Run 'Tests in 'calculator.simplemob...' to run all the tests</p>
 <p>3. if you are on Linux or Mac, go to Run -> Edit Configurations, select the new JUnit configuration and change the "Working Directory" item to "$MODULE_DIR$" (without quotes)</p>
 <p>4. OK</p>
